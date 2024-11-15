@@ -6,6 +6,7 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  margin: 0 200px;
 }
 /* primary color for the project */
 
@@ -16,7 +17,7 @@ nav {
   color: var(--Dark-01, #181818);
   font-size: 45px;
   font-weight: 800;
-  padding-left: 226px;
+  /* padding-left: 226px; */
 }
 nav > ul {
   display: flex;
@@ -44,4 +45,12 @@ nav li a {
 /* header related styles */
 .header {
   background-color: #fff8f3;
+}
+.banner {
+  padding: 30px 30px 30px 150px;
+  display: flex;
+  align-items: center;
+}
+banner .banner-picture {
+  width: 500px;
 }
